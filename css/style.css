@@ -1,0 +1,79 @@
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+a {
+  color: #47b2e4;
+  text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Jost", sans-serif;
+}
+#cab .logo a {
+  color: #fff;
+}
+.navbar ul {
+  list-style: none;
+}
+/* Checarlo */
+.navbar a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 30px;
+  font-size: 15px;
+  color: #fff;
+  white-space: nowrap;
+}
+/* Drop down */
+.navbar .lista ul {
+  position: absolute;
+  opacity: 0;
+  background: #fff;
+ 
+}
+.navbar .lista ul a {
+  padding: 10px 20px;
+  color: #0c3c53;
+}
+.navbar .lista:hover > ul {
+  opacity: 1;
+  top: 100%;
+  visibility: visible;
+}
+#base {
+  width: 100%;
+  height: 83vh;
+  background: #37517e;
+}
+#base .container {
+  padding-top: 80px;
+}
+#base h1 {
+  color: #fff;
+}
+#base h2 {
+  color: rgba(255, 255, 255, 0.6);
+ 
+}
+#base .btn-inicio{
+  font-family: "Jost", sans-serif;
+  padding: 10px 28px 11px 28px;
+  margin: 10px 0 0 0;
+  color: #fff;
+  background: #47b2e4;
+}
+#base .btn-video {
+  margin: 10px 0 0 45px;
+  color: #fff;
+}
+.imagen img {
+  max-width: 55%;
+  filter: grayscale(100);
+}
+
+
+
+
+
+
